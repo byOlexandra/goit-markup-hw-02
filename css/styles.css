@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto" sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+
+.first-logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.first-web {
+    color: #4D5AE5;
+    font-weight: 700;
+}
+.menu {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+}
+.address {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+.main-header {
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.071;
+    font-size: 56px;
+}
+
+.header-section {
+    background-color: #2E2F42;
+    width: 1,440px;
+    height: 600px;
+}
+.order-button {
+    background-color: #4D5AE5;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 16px;
+   line-height: 1.5;
+   vertical-align: middle;
+}
+.characteristics h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.characteristics p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.our-team {
+    text-align: center;
+}
+.team-section {
+    background-color: #F4F4FD;
+}
