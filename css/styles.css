@@ -50,14 +50,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.tel {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 .address {
     font-style: normal;
 }
@@ -112,6 +105,10 @@ ul {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.list {
+    background-color: #FFFFFF
+}
+
 .team-section {
     background-color: #F4F4FD;
 }
@@ -185,7 +182,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.menu li a:hover {
+.menu:hover {
     color: #404BBF;
 }
 .order-button:hover,
@@ -197,7 +194,4 @@ ul {
 .email:focus {
     color: #404BBF;
 }
-.tel:hover,
-.tel:focus {
-    color: #404BBF;
-}
+
