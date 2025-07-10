@@ -19,7 +19,7 @@ ul {
 .first-logo {
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03;
@@ -29,6 +29,7 @@ ul {
 .first-web {
     color: #2e2f42;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .menu {
     font-family: "Roboto";
@@ -37,18 +38,21 @@ ul {
 }
 .menu li a {
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .menu li a:focus {
     color: #404bbf;
 }
-.address li a {
+.email .tel {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+}
+.address {
+    font-style: normal;
 }
 .main-header {
     font-family: "Roboto";
@@ -57,7 +61,7 @@ ul {
     line-height: 1.07;
     font-size: 56px;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .header-section {
@@ -70,24 +74,25 @@ ul {
    color: #FFFFFF;
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.04;
+   letter-spacing: 0.04em;
 }
 .header-two {
     color: #FFFFFF;
 }
-.characteristics h3 {
+.characteristics {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.characteristics p {
+.definition {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .our-team {
@@ -96,11 +101,11 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-section {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team li h3 {
@@ -122,7 +127,7 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -131,7 +136,7 @@ ul {
     font-family: "Roboto";
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .projects li p {
@@ -139,7 +144,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .footer {
@@ -151,9 +156,9 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     text-transform: uppercase;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
 }
 .dark-studio {
     color: #f4f4fd;
@@ -164,7 +169,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .menu li a:hover {
@@ -175,7 +180,11 @@ ul {
     background-color: #404BBF;
 }
 
-.address li a:hover,
-.address li a:focus {
+.email:hover,
+.email:focus {
+    color: #404BBF;
+}
+.tel:hover,
+.tel:focus {
     color: #404BBF;
 }
