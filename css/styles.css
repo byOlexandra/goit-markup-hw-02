@@ -1,6 +1,6 @@
 body {
-    font-family: "Roboto" sans-serif;
-    color: #2E2F42;
+    font-family:"Roboto",sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -19,13 +19,15 @@ ul {
 .first-logo {
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Roboto";
+    font-family: "Raleway";
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    color: #4d5ae5;
 }
 
 .first-web {
-    color: #4D5AE5;
+    color: #2e2f42;
     font-weight: 700;
 }
 .menu {
@@ -33,33 +35,42 @@ ul {
     font-weight: 500;
     font-size: 16px;
 }
+.menu li a {
+    line-height: 1.5;
+    letter-spacing: 0.02;
+}
+.menu li a:focus {
+    color: #404bbf;
+}
 .address li a {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02;
 }
 .main-header {
     font-family: "Roboto";
     font-weight: 700;
-    text-align: center;
     color: #FFFFFF;
-    line-height: 1.071;
+    line-height: 1.07;
     font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02;
 }
 
 .header-section {
     background-color: #2E2F42;
-    width: 1,440px;
-    height: 600px;
 }
 .order-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     background-color: #4D5AE5;
    color: #FFFFFF;
-   text-align: center;
    font-size: 16px;
    line-height: 1.5;
-   vertical-align: middle;
+   letter-spacing: 0.04;
 }
 .header-two {
     color: #FFFFFF;
@@ -69,19 +80,24 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02;
 }
 .characteristics p {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
 }
 .our-team {
-    text-align: center;
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
 }
 .team-section {
     background-color: #F4F4FD;
@@ -101,11 +117,13 @@ ul {
 }
 
 .portfolio {
-    text-align: center;
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
 }
 
 .projects li h3 {
@@ -113,6 +131,7 @@ ul {
     font-family: "Roboto";
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02;
 }
 
 .projects li p {
@@ -120,34 +139,39 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;
 }
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
 .last-logo {
-    color: #F4F4FD;
-    font-family: 'Raleway';
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.7;
     text-transform: uppercase;
+    letter-spacing: 0.03;
 }
-.dark-web {
-    color: #4D5AE5;
+.dark-studio {
+    color: #f4f4fd;
 }
 
-.footer p {
+.last {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02;
 }
 
 .menu li a:hover {
     color: #404BBF;
 }
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
     background-color: #404BBF;
 }
 
