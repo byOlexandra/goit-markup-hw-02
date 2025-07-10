@@ -21,6 +21,7 @@ ul {
     font-weight: 700;
     font-family: "Roboto";
     font-size: 18px;
+    line-height: 1.166;
 }
 
 .first-web {
@@ -32,10 +33,11 @@ ul {
     font-weight: 500;
     font-size: 16px;
 }
-.address {
+.address li a {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
+    color: #434455;
 }
 .main-header {
     font-family: "Roboto";
@@ -59,6 +61,9 @@ ul {
    line-height: 1.5;
    vertical-align: middle;
 }
+.header-two {
+    color: #FFFFFF;
+}
 .characteristics h3 {
     font-family: "Roboto";
     font-weight: 500;
@@ -73,7 +78,80 @@ ul {
 }
 .our-team {
     text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
 }
 .team-section {
     background-color: #F4F4FD;
+}
+
+.team li h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.team li p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.portfolio {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
+}
+
+.projects li h3 {
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.projects li p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.last-logo {
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.166;
+    text-transform: uppercase;
+}
+.dark-web {
+    color: #4D5AE5;
+}
+
+.footer p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu li a:hover {
+    color: #404BBF;
+}
+.order-button:hover {
+    background-color: #404BBF;
+}
+
+.address li a:hover,
+.address li a:focus {
+    color: #404BBF;
 }
