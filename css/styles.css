@@ -22,7 +22,7 @@ ul {
     font-family: "Raleway",sans-serif;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 
@@ -35,15 +35,22 @@ ul {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-}
-.menu li a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu li a:focus {
+.menu:focus
+.menu:hover {
     color: #404bbf;
 }
-.email .tel {
+.email {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.tel {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -103,22 +110,26 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-section {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
-.team li h3 {
+.members {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.team li p {
+.profession {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .portfolio {
@@ -129,17 +140,19 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.projects li h3 {
+.projects {
     font-weight: 500;
     font-family: "Roboto";
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.projects li p {
+.form {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
