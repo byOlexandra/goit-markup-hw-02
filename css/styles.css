@@ -50,13 +50,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.tel {
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+.email:hover,
+.email:focus {
+    color: #404BBF;
 }
 
 .address {
@@ -201,11 +198,4 @@ ul {
     background-color: #404BBF;
 }
 
-.email:hover,
-.email:focus {
-    color: #404BBF;
-}
-.tel:hover,
-.tel:focus {
-    color: #404BBF;
-}
+
