@@ -17,6 +17,7 @@ ul {
 }
 
 .first-logo {
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
@@ -69,6 +70,7 @@ ul {
     background-color: #2E2F42;
 }
 .order-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     background-color: #4D5AE5;
    color: #FFFFFF;
